@@ -29,4 +29,11 @@
 
 ### 使用方法
 
-Clone代码后，使用Xilinx Vivado打开`openriscv/opentiscv.xpr`文件即可。我们使用的Vivado版本是2018.3。
+Clone代码后，使用Xilinx Vivado打开`openriscv/opentiscv.xpr`文件，即可打开项目。我们使用的Vivado版本是2018.3。
+
+### 参考
+
+本项目主要参考了两个实现：
+
+- 雷思磊的《自己动手写CPU》中的MIPS CPU核“OpenMIPS”。这本书也是本课程首推的参考书，大部分同学都会参考该书给出的MIPS实现。
+- tinyriscv：https://github.com/liangkangnan/tinyriscv
